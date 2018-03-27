@@ -38,11 +38,11 @@ def tweetHelloWorld():
 
 # twitter client
 def get_twitter_client():
-    consumer_key = 'qiPGDi4RRGfwThOBMBQ6TGMEE'
-    consumer_secret = '6tgfbIv1vAHMfY7rXI2pCXdqwDNOpsfYPZqN8d8rJ1ZDGn3hT0'
+    consumer_key = '*******'
+    consumer_secret = '***************8'
     
-    access_token = '962241614453157889-DvCnzCGbOpc3SLpNjud8WGU2QojbWvh'
-    access_token_secret = 'qZC2b79i3KZDJiVuDFOAdpvX9Z27IwhNI80Tz0H4eoUjY'
+    access_token = '*****************-***************8'
+    access_token_secret = '******************8'
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
     api = tweepy.API(auth)
